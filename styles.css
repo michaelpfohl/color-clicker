@@ -13,12 +13,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    width: 40%;
   }
   
   .circle {
-    height: 140px;
-    width: 140px;
+    height: 40px;
+    width: 40px;
     border: 2px solid white;
     border-radius: 70px;
     margin: 2px;

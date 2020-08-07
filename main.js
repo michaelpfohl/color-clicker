@@ -1,5 +1,7 @@
 'use strict';
 
+const circles = [];
+
 const printToDom = (divId, textToPrint) => {
   const selectedDiv = document.querySelector(divId);
   selectedDiv.innerHTML = textToPrint;
@@ -7,7 +9,8 @@ const printToDom = (divId, textToPrint) => {
 
 const buildCircles = () => {
   let domString = '';
-  for (let i = 0; i < 25; i++){
+  for (let i = 0; i < 648; i++){
+    circles.push({id: `circle-${[i]}`, background: 'none'});
     domString += `<div class="circle ${[i]}" id="circle-${[i]}"></div>`
   }
   printToDom('#container', domString);
@@ -18,7 +21,7 @@ const resetButtonEvent = () => {
 }
 
 const circleClickEvent = () => {
-  for (let i = 0; i < 25; i++){
+  for (let i = 0; i < 648; i++){
   document.querySelector(`#circle-${[i]}`).addEventListener('click', changeColor)
   }
 }

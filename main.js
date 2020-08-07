@@ -17,7 +17,7 @@ const buildCircles = () => {
 }
 
 const resetButtonEvent = () => {
-  document.querySelector('#reset').addEventListener('click', resetColors)
+  document.querySelector('#reset').addEventListener('click', init)
 }
 
 const circleClickEvent = () => {
@@ -43,10 +43,6 @@ const changeBackground = (e) => {
 
 const randomColor = () => {
   return Math.floor(Math.random() * 16777215).toString(16);
-}
-
-const resetColors = () => {
-  init();
 }
 
 const init = () => {

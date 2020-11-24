@@ -4,3 +4,4 @@ The digital equivalent of the satisfaction of popping bubble wrap! Each circle c
 
 ![Color Clicker](color-clicker.gif)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ebc45a2d-c29f-4b78-abf1-3c582cc1678c/deploy-status)](https://app.netlify.com/sites/color-clicker/deploys)
